@@ -1,0 +1,8 @@
+sleep 2
+gpio input 60
+sleep 2
+gpio input 60
+sleep 2
+gpio input 60
+sleep 2
+gpio input 60

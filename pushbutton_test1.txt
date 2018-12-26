@@ -1,0 +1,1 @@
+sleep 1\;echo 'step 1'\;gpio input 60\;sleep 2\;echo 'step 2'\;gpio input 60\;sleep 2\;echo 'step 3'\;gpio input 60\;sleep 2\;echo 'step 4'\;gpio input 60\;sleep 2\;echo 'step 5'\;gpio input 60\;sleep 1\;
