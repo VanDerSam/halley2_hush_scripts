@@ -1,0 +1,14 @@
+BUTTON_PIN=60
+LED_PIN=56
+
+gpio clear ${LED_PIN}
+
+while test 1 -eq 1; do
+  gpio input ${BUTTON_PIN};
+  if test $? -eq 0; then
+	gpio set ${LED_PIN};
+  else
+    gpio clear ${LED_PIN};
+  fi
+  sleep 1;
+done
